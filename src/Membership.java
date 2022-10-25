@@ -1,5 +1,6 @@
 public class Membership {
-    private String date, duration, type, currentTourney, pastTourneys, futureTourneys;
+    private String date, duration, type;
+    private Tourney currentTourney, pastTourneys, futureTourneys;
 
     public Membership() {  // Default Constructor
         this.date = null;
@@ -11,7 +12,7 @@ public class Membership {
     }
 
     // Need to figure out the arrays for past and future...
-    public Membership(String da, String du, String ty, String cTour, String pTour, String fTour) {  // Regular Constructor
+    public Membership(String da, String du, String ty, Tourney cTour, Tourney pTour, Tourney fTour) {  // Regular Constructor
         this.date = da;
         this.duration = du;
         this.type = ty;
@@ -19,6 +20,8 @@ public class Membership {
         this.pastTourneys = pTour;
         this.futureTourneys = fTour;
     }
+
+    // Get the information!
     public String getDate(){
         return this.date;
     }
@@ -28,13 +31,13 @@ public class Membership {
     public String getType(){
         return this.type;
     }
-    public String getCurrentTourney(){
+    public Tourney getCurrentTourney(){
         return this.currentTourney;
     }
-    public String getPastTourneys(){
+    public Tourney getPastTourneys(){
         return this.pastTourneys;
     }
-    public String getFutureTourneys(){
+    public Tourney getFutureTourneys(){
         return this.futureTourneys;
     }
 }
