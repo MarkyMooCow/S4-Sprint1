@@ -1,4 +1,4 @@
-public class Membership {
+/* public class Membership {
     private String date, duration, type;
     private Tourney currentTourney, pastTourneys, futureTourneys;
 
@@ -12,7 +12,10 @@ public class Membership {
     }
 
     // Need to figure out the arrays for past and future...
-    public Membership(String da, String du, String ty, Tourney cTour, Tourney pTour, Tourney fTour) {  // Regular Constructor
+    public Membership( // Regular Constructor
+            String da, String du, String ty,
+            Tourney cTour, Tourney pTour, Tourney fTour)
+    {
         this.date = da;
         this.duration = du;
         this.type = ty;
@@ -42,3 +45,4 @@ public class Membership {
     }
 }
 
+*/

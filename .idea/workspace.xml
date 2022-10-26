@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39b5f7fc-5d65-45da-983b-36cd50afb2c2" name="Changes" comment="YOOOO" />
+    <list default="true" id="39b5f7fc-5d65-45da-983b-36cd50afb2c2" name="Changes" comment="YOOOO">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Membership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Membership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tourney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tourney.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +68,9 @@
       <option name="presentableId" value="Default" />
       <updated>1666648537344</updated>
       <workItem from="1666648539028" duration="5484000" />
-      <workItem from="1666708425076" duration="209000" />
+      <workItem from="1666708425076" duration="647000" />
+      <workItem from="1666736773393" duration="5615000" />
+      <workItem from="1666755209006" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="YOOOO">
       <created>1666650533529</created>
@@ -79,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666708480748</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="YOOOO">
+      <created>1666708649148</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666708649148</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,9 +102,39 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="7e810290-bf78-4a5d-8b02-7966203ef417">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="81eb7c45-98e9-49d5-8040-176ab234d927">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="94fe6e6f-6eab-465d-9b34-76159770e7e2">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
