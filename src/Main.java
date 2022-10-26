@@ -1,4 +1,5 @@
 public class Main {
+    // Need to figure out how arrays work for this sort of thing...
     public static void main(String[] args) {
             Person Person1 = new Person(
                     "Air Ray","2 Detroit Street",

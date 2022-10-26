@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39b5f7fc-5d65-45da-983b-36cd50afb2c2" name="Changes" comment="bruh">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tourney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tourney.java" afterDir="false" />
-    </list>
+    <list default="true" id="39b5f7fc-5d65-45da-983b-36cd50afb2c2" name="Changes" comment="we getting somewhere" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +66,7 @@
       <workItem from="1666708425076" duration="647000" />
       <workItem from="1666736773393" duration="5615000" />
       <workItem from="1666755209006" duration="1646000" />
-      <workItem from="1666826576831" duration="1366000" />
+      <workItem from="1666826576831" duration="1686000" />
     </task>
     <task id="LOCAL-00001" summary="YOOOO">
       <created>1666650533529</created>
@@ -129,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666756610586</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="we getting somewhere">
+      <created>1666827972903</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666827972903</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +181,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="YOOOO" />
     <MESSAGE value="bruh" />
-    <option name="LAST_COMMIT_MESSAGE" value="bruh" />
+    <MESSAGE value="we getting somewhere" />
+    <option name="LAST_COMMIT_MESSAGE" value="we getting somewhere" />
   </component>
 </project>
