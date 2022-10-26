@@ -27,6 +27,6 @@ public class Person extends Tourney {
         this.membershipDuration = membershipDuration;
         this.currentTourney = null;
         this.pastTourneys = null;
-        this.futureTourneys = nul;
+        this.futureTourneys = null;
     }
 }
