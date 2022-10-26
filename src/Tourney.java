@@ -1,6 +1,6 @@
 public class Tourney {
-        private String startDate, endDate, location, competitors, finalStandings;
-        private double entryFee, cashPrize;
+        public String startDate, endDate, location, competitors, finalStandings;
+        public double entryFee, cashPrize;
 
         public Tourney() // Default Constructor
         {

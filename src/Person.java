@@ -3,7 +3,6 @@ public class Person extends Tourney {
     private Tourney currentTourney, pastTourneys, futureTourneys;
 
     public Person() {  // Default Constructor
-        super();
         this.name = null;
         this.address = null;
         this.email = null;
@@ -28,5 +27,9 @@ public class Person extends Tourney {
         this.currentTourney = null;
         this.pastTourneys = null;
         this.futureTourneys = null;
+    }
+
+    public String getName(){
+        return this.name;
     }
 }
