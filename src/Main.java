@@ -8,8 +8,9 @@ public class Main {
 
         Tourney Tourney1 = new Tourney(
                 "11/11/11", "11/15/11", "Detroit, Michigan",
-                Person1.getName(), null, 5.00, 10.00);
+                null, 3, 5.00, 10.00);
 
-        System.out.println(Tourney1.competitors);
+        Tourney1.competitors[0] = Person1.getName();
+        Tourney1.getCompetitors();
     }
 }

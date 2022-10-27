@@ -1,5 +1,6 @@
 public class Tourney {
-        public String startDate, endDate, location, competitors, finalStandings;
+        public String startDate, endDate, location, finalStandings;
+        public String[] competitors;
         public double entryFee, cashPrize;
 
         public Tourney() // Default Constructor
@@ -7,20 +8,20 @@ public class Tourney {
             this.startDate = null;
             this.endDate = null;
             this.location = null;
-            this.competitors = null;
+            this.competitors = new String[]{null, null, null, null, null, null};
             this.finalStandings = null;
             this.entryFee = 0;
             this.cashPrize = 0;
         }
 
     public Tourney(
-            String startDate, String endDate, String location, String competitors, String finalStandings,
-            double entryFee, double cashPrize)
+            String startDate, String endDate, String location, String finalStandings,
+            int compLength, double entryFee, double cashPrize)
         {
             this.startDate = startDate;
             this.endDate = endDate;
             this.location = location;
-            this.competitors = competitors;
+            this.competitors = new String[compLength];
             this.finalStandings = finalStandings;
             this.entryFee = entryFee;
             this.cashPrize = cashPrize;
@@ -34,14 +35,17 @@ public class Tourney {
     public String getLocation(){
         return this.location;
     }
-    // ARRAY NEEDED FOR FUTURE
-    public String getCompetitors(){
-        return this.competitors;
+    public String getCompetitor(int x){
+        return this.competitors[x];
     }
-    // ARRAY NEEDED HERE TOO I THINK
-    public String getFinalStandings(){
+    public void getCompetitors(){
+        for (int i = 0; i < this.competitors.length; i++) {
+            System.out.println(this.competitors[i]);
+            }
+        }
+    /* public String getFinalStandings(){
         return this.finalStandings;
-    }
+    } */
     public double getEntryFee() {
         return this.entryFee;
     }
