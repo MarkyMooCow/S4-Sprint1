@@ -25,4 +25,27 @@ public class Tourney {
             this.entryFee = entryFee;
             this.cashPrize = cashPrize;
         }
+    public String getStartDate(){
+        return this.startDate;
+    }
+    public String getEndDate(){
+        return this.endDate;
+    }
+    public String getLocation(){
+        return this.location;
+    }
+    // ARRAY NEEDED FOR FUTURE
+    public String getCompetitors(){
+        return this.competitors;
+    }
+    // ARRAY NEEDED HERE TOO I THINK
+    public String getFinalStandings(){
+        return this.finalStandings;
+    }
+    public double getEntryFee() {
+        return this.entryFee;
+    }
+    public double getCashPrize() {
+        return this.cashPrize;
+    }
 }

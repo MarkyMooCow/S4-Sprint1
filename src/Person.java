@@ -32,4 +32,31 @@ public class Person extends Tourney {
     public String getName(){
         return this.name;
     }
+    public String getAddress(){
+        return this.address;
+    }
+    public String getEmail(){
+        return this.email;
+    }
+    public String getPhone(){
+        return this.phone;
+    }
+    public String getMembershipType(){
+        return this.membershipType;
+    }
+    public String getMembershipStart(){
+        return this.membershipStart;
+    }
+    public String getMembershipDuration(){
+        return this.membershipDuration;
+    }
+    public Tourney getCurrentTourney(){
+        return this.currentTourney;
+    }
+    public Tourney getPastTourneys(){
+        return this.pastTourneys;
+    }
+    public Tourney getFutureTourneys(){
+        return this.futureTourneys;
+    }
 }
