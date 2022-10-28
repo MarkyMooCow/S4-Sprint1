@@ -10,7 +10,9 @@ public class Main {
                 "11/11/11", "11/15/11", "Detroit, Michigan",
                 null, 3, 5.00, 10.00);
 
-        Tourney1.competitors[0] = Person1.getName();
+        Tourney1.addCompetitor(-1, Person1);
+        Tourney1.addCompetitor(4, Person1);
+        Tourney1.addCompetitor(0, Person1);
         Tourney1.getCompetitors();
     }
 }

@@ -8,7 +8,7 @@ public class Tourney {
             this.startDate = null;
             this.endDate = null;
             this.location = null;
-            this.competitors = new String[]{null, null, null, null, null, null};
+            this.competitors = new String[5]; // 5 will be the default competitor amount;
             this.finalStandings = null;
             this.entryFee = 0;
             this.cashPrize = 0;
@@ -40,9 +40,17 @@ public class Tourney {
     }
     public void getCompetitors(){
         for (int i = 0; i < this.competitors.length; i++) {
-            System.out.println(this.competitors[i]);
-            }
-        }
+            if (this.competitors[i] != null) {
+                System.out.println(this.competitors[i]);
+            } else {
+                System.out.println("[Vacant]");
+            }}}
+    public void addCompetitor(int i, Person Peep){
+            if (i > this.competitors.length || i < 0) {
+                System.out.println("I is out of the range in this scenario, so don't execute the Queen Of France");
+            } else {
+                System.out.println("I is in the range, so BRAAAAP");
+            }}
     /* public String getFinalStandings(){
         return this.finalStandings;
     } */
