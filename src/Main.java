@@ -38,4 +38,5 @@ public class Main {
         System.out.println(Tourney1.getFinalStandings());
         System.out.println("/////////////////");
         System.out.println(Person1);
+        System.out.println(Tourney1);
 }}

@@ -82,10 +82,30 @@ public class Tourney {
                 "\n Second: " + this.finalStandings[1].getName() +
                 "\n Third: " + this.finalStandings[2].getName();
         }}
+    public String hasTourneyEnded(){
+            if (this.finalStandings != null) {
+                return "Tournament has ended!";
+            } else {
+                return "Tournament has not ended!";
+            }
+    }
     public double getEntryFee() {
         return this.entryFee;
     }
     public double getCashPrize() {
         return this.cashPrize;
+    }
+    public String toString()
+    {
+        return
+                "Here's this persons information!" +
+                        "\n Tourney Name: " + getTourneyName() +
+                        "\n Start Date: " + getStartDate() +
+                        "\n End Date: " + getEndDate() +
+                        "\n Location: " + getLocation() +
+                        "\n Competitor Limit: " + this.competitors.length +
+                        "\n Final Standings: " + hasTourneyEnded() +
+                        "\n Entry Fee: $" + getEntryFee() +
+                        "\n Cash Prize: $" + getCashPrize();
     }
 }

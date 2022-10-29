@@ -72,6 +72,10 @@ public class Person extends Tourney {
     public Tourney makeCurrentTourney(Tourney t){
         return this.currentTourney = t;
     }
+    public void finishCurrentTourney(Tourney t){
+        this.lastTourney = this.currentTourney;
+        this.currentTourney = null;
+    }
     public Tourney makeLastTourney(Tourney t){
         return this.lastTourney = t;
     }
