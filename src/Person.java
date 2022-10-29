@@ -93,7 +93,7 @@ public class Person extends Tourney {
                 "\n Membership Type: " + getMembershipType() +
                 "\n Membership Start: " + getMembershipStart() +
                 "\n Membership Duration: " + getMembershipDuration() +
-                "\n Current Tourney: " + this.currentTourney.getTourneyName() +
+                "\n Current Tourney: " + getCurrentTourney() +
                 "\n Last Tourney: " + getLastTourney() +
                 "\n Next Tourney: " + getNextTourney();
     }
