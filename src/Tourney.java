@@ -28,9 +28,10 @@ public class Tourney {
             this.entryFee = entryFee;
             this.cashPrize = cashPrize;
         }
-    public String getStartDate(){
-        return this.startDate;
+    public String getTourneyName(){
+        return this.tourneyName;
     }
+    public String getStartDate() { return this.startDate; }
     public String getEndDate(){
         return this.endDate;
     }
@@ -55,9 +56,11 @@ public class Tourney {
                     if (this.competitors[i] != null) {
                         System.out.println("Slot filled! " + this.competitors[i].getName() + " will be replaced!");
                         this.competitors[i] = Peep;
+                        Peep.makeCurrentTourney(this);
                         System.out.println("Competitor replaced!");
                     } else {
                         this.competitors[i] = Peep;
+                        Peep.makeCurrentTourney(this);
                         System.out.println("Competitor added!");
                     }
                 }}
@@ -70,7 +73,7 @@ public class Tourney {
                 "\n Second: " + this.finalStandings[1].getName() +
                 "\n Third: " + this.finalStandings[2].getName();
         }
-        public String showFinalStandings(){
+        public String getFinalStandings(){
             if (this.finalStandings[0] == null) {
                 return "There is no final standings yet! You must create them!";
             } else {
@@ -79,9 +82,6 @@ public class Tourney {
                 "\n Second: " + this.finalStandings[1].getName() +
                 "\n Third: " + this.finalStandings[2].getName();
         }}
-    /* public String getFinalStandings(){
-        return this.finalStandings;
-    } */
     public double getEntryFee() {
         return this.entryFee;
     }

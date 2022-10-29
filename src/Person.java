@@ -51,14 +51,23 @@ public class Person extends Tourney {
         return this.membershipDuration;
     }
     public String getCurrentTourney(){
-        return this.currentTourney.tourneyName;
-    }
+        if (currentTourney == null) {
+            return null;
+        } else {
+            return this.currentTourney.getTourneyName();
+        }}
     public String getLastTourney(){
-        return this.lastTourney.tourneyName;
-    }
+        if (this.lastTourney == null) {
+        return null;
+        } else {
+        return this.lastTourney.getTourneyName();
+    }}
     public String getNextTourney(){
-        return this.nextTourney.tourneyName;
-    }
+        if (this.nextTourney == null) {
+            return null;
+        } else {
+        return this.nextTourney.getTourneyName();
+    }}
 
     public Tourney makeCurrentTourney(Tourney t){
         return this.currentTourney = t;
@@ -69,5 +78,19 @@ public class Person extends Tourney {
     public Tourney makeNextTourney(Tourney t){
         return this.nextTourney = t;
     }
-    // public String toString()
+    public String toString()
+    {
+        return
+                "Here's this persons information!" +
+                "\n Name: " + getName() +
+                "\n Address: " + getAddress() +
+                "\n Email: " + getEmail() +
+                "\n Phone: " + getPhone() +
+                "\n Membership Type: " + getMembershipType() +
+                "\n Membership Start: " + getMembershipStart() +
+                "\n Membership Duration: " + getMembershipDuration() +
+                "\n Current Tourney: " + this.currentTourney.getTourneyName() +
+                "\n Last Tourney: " + getLastTourney() +
+                "\n Next Tourney: " + getNextTourney();
+    }
 }
