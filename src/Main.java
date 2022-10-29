@@ -17,7 +17,7 @@ public class Main {
         // Create a test tournament!
         Tourney Tourney1 = new Tourney(
                 "Wuhu Island Tourney", "11/11/11", "11/15/11", "Detroit, Michigan",
-                3, 5.00, 10.00); // I'm cheap OK?
+                3, 5.55, 55.55); // I'm cheap OK?
 
         // These won't succeed at all lmao
         Tourney1.addCompetitor(-1, Person1);
