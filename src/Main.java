@@ -15,17 +15,25 @@ public class Main {
                 "Bob", "08/08/08", "10 Years");
 
         Tourney Tourney1 = new Tourney(
-                "11/11/11", "11/15/11", "Detroit, Michigan",
+                "Wuhu Island Tourney", "11/11/11", "11/15/11", "Detroit, Michigan",
                 3, 5.00, 10.00);
 
+        // These won't succeed at all lmao
         Tourney1.addCompetitor(-1, Person1);
         Tourney1.addCompetitor(4, Person1);
+        System.out.println("/////////////////");
+        // Will actually succeed
         Tourney1.addCompetitor(0, Person1);
         Tourney1.addCompetitor(1, Person2);
+        Tourney1.addCompetitor(1, Person2);
         Tourney1.addCompetitor(2, Person3);
+        System.out.println("/////////////////");
+        // Show off the goods
         Tourney1.getCompetitors();
+        System.out.println("/////////////////");
         System.out.println(Tourney1.showFinalStandings());
+        System.out.println("/////////////////");
         System.out.println(Tourney1.createFinalStandings(0, 1, 2));
+        System.out.println("/////////////////");
         System.out.println(Tourney1.showFinalStandings());
-
 }}

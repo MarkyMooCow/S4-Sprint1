@@ -1,6 +1,6 @@
 public class Person extends Tourney {
     private String name, address, email, phone, membershipType, membershipStart, membershipDuration, type;
-    private Tourney currentTourney, pastTourneys, futureTourneys;
+    private Tourney currentTourney, lastTourney, nextTourney;
 
     public Person() {  // Default Constructor
         this.name = null;
@@ -11,8 +11,8 @@ public class Person extends Tourney {
         this.membershipStart = null;
         this.membershipDuration = null;
         this.currentTourney = null;
-        this.pastTourneys = null;
-        this.futureTourneys = null;
+        this.lastTourney = null;
+        this.nextTourney = null;
     }
     public Person(String name, String address, String email, String phone,
                   String membershipType, String membershipStart, String membershipDuration
@@ -25,8 +25,8 @@ public class Person extends Tourney {
         this.membershipStart = membershipStart;
         this.membershipDuration = membershipDuration;
         this.currentTourney = null;
-        this.pastTourneys = null;
-        this.futureTourneys = null;
+        this.lastTourney = null;
+        this.nextTourney = null;
     }
 
     public String getName(){
@@ -50,13 +50,24 @@ public class Person extends Tourney {
     public String getMembershipDuration(){
         return this.membershipDuration;
     }
-    public Tourney getCurrentTourney(){
-        return this.currentTourney;
+    public String getCurrentTourney(){
+        return this.currentTourney.tourneyName;
     }
-    public Tourney getPastTourneys(){
-        return this.pastTourneys;
+    public String getLastTourney(){
+        return this.lastTourney.tourneyName;
     }
-    public Tourney getFutureTourneys(){
-        return this.futureTourneys;
+    public String getNextTourney(){
+        return this.nextTourney.tourneyName;
     }
+
+    public Tourney makeCurrentTourney(Tourney t){
+        return this.currentTourney = t;
+    }
+    public Tourney makeLastTourney(Tourney t){
+        return this.lastTourney = t;
+    }
+    public Tourney makeNextTourney(Tourney t){
+        return this.nextTourney = t;
+    }
+    // public String toString()
 }

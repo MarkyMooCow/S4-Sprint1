@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39b5f7fc-5d65-45da-983b-36cd50afb2c2" name="Changes" comment="we getting somewhere">
+    <list default="true" id="39b5f7fc-5d65-45da-983b-36cd50afb2c2" name="Changes" comment="YA YEE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tourney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tourney.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,7 @@
       <workItem from="1666755209006" duration="1646000" />
       <workItem from="1666826576831" duration="3279000" />
       <workItem from="1666904480433" duration="4459000" />
-      <workItem from="1666995367012" duration="4050000" />
+      <workItem from="1666995367012" duration="7409000" />
     </task>
     <task id="LOCAL-00001" summary="YOOOO">
       <created>1666650533529</created>
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666997333633</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="we getting somewhere">
+      <created>1666999491400</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666999491400</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +224,7 @@
     <MESSAGE value="YOOOO" />
     <MESSAGE value="bruh" />
     <MESSAGE value="we getting somewhere" />
-    <option name="LAST_COMMIT_MESSAGE" value="we getting somewhere" />
+    <MESSAGE value="YA YEE" />
+    <option name="LAST_COMMIT_MESSAGE" value="YA YEE" />
   </component>
 </project>
