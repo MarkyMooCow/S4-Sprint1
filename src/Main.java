@@ -28,7 +28,7 @@ public class Main {
         Tourney1.addCompetitor(1, Person2);
         Tourney1.addCompetitor(2, Person3);
         System.out.println("/////////////////");
-        // Show off the goods
+        // Show off the goods and go through an entire tournament!
         Tourney1.getCompetitors();
         System.out.println("/////////////////");
         System.out.println(Tourney1.getFinalStandings()); // Meant to fail.
@@ -37,6 +37,11 @@ public class Main {
         System.out.println("/////////////////");
         System.out.println(Tourney1.getFinalStandings());
         System.out.println("/////////////////");
+        // toString() methods
+        Person1.finishCurrentTourney();
+        Person2.finishCurrentTourney();
+        Person3.finishCurrentTourney();
         System.out.println(Person1);
+        System.out.println("/////////////////");
         System.out.println(Tourney1);
 }}
