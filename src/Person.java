@@ -1,4 +1,5 @@
 public class Person extends Tourney {
+    // Variables!
     private String name, address, email, phone, membershipType, membershipStart, membershipDuration, type;
     private Tourney currentTourney, lastTourney, nextTourney;
 
@@ -14,9 +15,10 @@ public class Person extends Tourney {
         this.lastTourney = null;
         this.nextTourney = null;
     }
-    public Person(String name, String address, String email, String phone,
-                  String membershipType, String membershipStart, String membershipDuration
-    ) {  // Regular Constructor
+    public Person( // Regular Constructor
+            String name, String address, String email, String phone,
+            String membershipType, String membershipStart, String membershipDuration)
+    {
         this.name = name;
         this.address = address;
         this.email = email;
@@ -29,6 +31,7 @@ public class Person extends Tourney {
         this.nextTourney = null;
     }
 
+    // We're acquiring the information we need.
     public String getName(){
         return this.name;
     }
@@ -50,6 +53,7 @@ public class Person extends Tourney {
     public String getMembershipDuration(){
         return this.membershipDuration;
     }
+    // These are more advanced so the code doesn't crash.
     public String getCurrentTourney(){
         if (currentTourney == null) {
             return null;
@@ -69,6 +73,7 @@ public class Person extends Tourney {
         return this.nextTourney.getTourneyName();
     }}
 
+    // These change up our tournaments.
     public Tourney makeCurrentTourney(Tourney t){
         return this.currentTourney = t;
     }
@@ -82,6 +87,7 @@ public class Person extends Tourney {
     public Tourney makeNextTourney(Tourney t){
         return this.nextTourney = t;
     }
+    // And finally, our toString()!
     public String toString()
     {
         return

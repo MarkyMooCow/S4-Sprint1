@@ -1,4 +1,5 @@
 public class Tourney {
+    // Variable creation!
         public String tourneyName, startDate, endDate, location;;
         public Person[] competitors, finalStandings;
         public double entryFee, cashPrize;
@@ -15,7 +16,7 @@ public class Tourney {
             this.cashPrize = 0;
         }
 
-    public Tourney(
+    public Tourney( // Regular Constructor
             String tourneyName, String startDate, String endDate, String location,
             int compLength, double entryFee, double cashPrize)
         {
@@ -28,6 +29,8 @@ public class Tourney {
             this.entryFee = entryFee;
             this.cashPrize = cashPrize;
         }
+
+        // Acquire the information we need!
     public String getTourneyName(){
         return this.tourneyName;
     }
@@ -38,9 +41,15 @@ public class Tourney {
     public String getLocation(){
         return this.location;
     }
-    public Person getCompetitor(int x){
-        return this.competitors[x];
-    }
+
+    // Designed to not crash the code.
+    public String getCompetitor(int i) {
+            if (this.competitors[i] == null) {
+                return null;
+            } else {
+                return this.competitors[i].getName();
+    }}
+    // Get the entire competitor list!
     public void getCompetitors(){
             System.out.println("Here's our current competitors!");
         for (int i = 0; i < this.competitors.length; i++) {
@@ -49,6 +58,7 @@ public class Tourney {
             } else {
                 System.out.println("[Vacant]");
             }}}
+    // Add a competitor to the golf!
     public void addCompetitor(int i, Person Peep){
             if (i > this.competitors.length || i < 0) {
                 System.out.println("Competitor placement is outside of the competitor range!");
@@ -64,6 +74,7 @@ public class Tourney {
                         System.out.println("Competitor added!");
                     }
                 }}
+    // Create the final standings!
     public String createFinalStandings(int first, int second, int third) {
         this.finalStandings[0] = this.competitors[first];
         this.finalStandings[1] = this.competitors[second];
@@ -73,6 +84,7 @@ public class Tourney {
                 "\n Second: " + this.finalStandings[1].getName() +
                 "\n Third: " + this.finalStandings[2].getName();
         }
+        // Show the final standings! Unless it's not complete.
         public String getFinalStandings(){
             if (this.finalStandings[0] == null) {
                 return "There is no final standings yet! You must create them!";
@@ -82,13 +94,14 @@ public class Tourney {
                 "\n Second: " + this.finalStandings[1].getName() +
                 "\n Third: " + this.finalStandings[2].getName();
         }}
-    public String hasTourneyEnded(){
+    public String hasTourneyEnded() { // This is for making the toString() method less cluttered and nothing else.
             if (this.finalStandings != null) {
                 return "Tournament has ended!";
             } else {
                 return "Tournament has not ended!";
             }
     }
+    // And finally the last commands for getting the information.
     public double getEntryFee() {
         return this.entryFee;
     }
