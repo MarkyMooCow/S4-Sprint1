@@ -1,0 +1,16 @@
+21/09
+
+15:00 beginning of InvoiceItem class followed by the date class 
+
+Started with Rectangle class 
+
+A static method belongs to the class and not to any particular object
+
+If you see anything underlined in your uml diagram that means it is a static variable 
+
+“Read only” in your uml(unified modelling language) class diagram means that the variable is “final” 
+
+Method overloading is when your class has a method with the same name but with different parameters, 
+the method can have the same name but there has to be different functionality, you can’t have 2 no argument
+constructors for instance. You can have as many overloaded methods as you want but they must all have 
+different parameters.

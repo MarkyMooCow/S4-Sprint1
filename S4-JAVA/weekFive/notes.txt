@@ -1,0 +1,41 @@
+weekFive 
+
+06/10
+
+Arrays  
+
+import java.util.Arrays;
+
+
+When you declare an array the computer reserves the required memory
+
+String b[] = new String[100] allocates memory for 100 String objects and needs to be specified 
+
+You us loops to run through the array or access the values 
+
+You can declare your array empty, then use a for loop to access each index and print them to the screen 
+
+When you parse an array with an array as a class all the attributes of the class array are passed on  too the declared array, the length is passed down from the public array 
+
+ARRAY INITIALIZERS
+
+Int n[] ={10, 20, 30, 40, 50}
+
+Or
+
+int[] an Array; // declares an array off integers
+String name [] = {“John”, “Peter”, “Maria”};
+String [] name = {“John”, “Peter”, “Aniee”};
+String [] name = new String [] {“Oscar”, “Charlie”, ”Ryan”, “Adam”};
+
+Other types of arrays 
+
+Float [] anArrayOfFloats;
+Double [] anArrayOfDoubles;
+Boolean [] anArrayOfBooleans;
+Char [] anArrayofChars;
+String [] anArrayOfStrings;
+
+You can also place the square brackets after the array’s name:
+
+Float anArray OfFloats[]; // this form is discouraged 

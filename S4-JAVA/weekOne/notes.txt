@@ -1,0 +1,40 @@
+8/09
+
+Java packages are the same thing as folders 
+
+Constuctor is a special method that gets invoked "automatically" at the time
+of object creaation
+
+constructor is used to create objects 
+
+There are three types of constructors
+1. default constructor - if you don't add any constructor 
+2. parameterized = when we pass argumetns to the constructor 
+3. copy constructor - a constructor that recoeves an object and if it is a copy
+   constructor it means ot is recieving a constructor of the same type 
+
+Getters and Setters
+
+OOP - object oriented programming, Java is an object oriented programming language 
+
+The behaviour of objects os modified by methods, objects are a function of “classes”
+
+Classes are considered the blueprint of your code, when a function of the class gets used 
+or instantiated it becomes an object 
+
+To build a class we need to write down all the attributes and methods of a student 
+
+Attributes includes any of the parts of the class I.e. name, age, RdNo. For a student 
+
+Name: String, Age: Int, RdNo: String nothing exists for real until we create its object 
+
+Access Modifiers: private, public, protected, default
+
+OOP - Encapsulation and Abstraction
+
+Object Aggregation = creating an instance one class as a reference in another class.
+Aggregation creates a “has a” relationship between objects, aggregation (a whole
+Part relationship os a represented by a line with a clear diamond 
+
+
+

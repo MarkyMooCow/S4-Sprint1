@@ -1,0 +1,38 @@
+28/09
+
+Starting course instructor and textbook classes at 7:45
+
+Week 4 starting with Bonus.java overloaded method and straight into Aggregation relationships 
+
+Aggregation creates a “Has a” relationship between a class and another class object
+
+Object Aggregation - Creating an instant of one class as aa reference in another class is called object aggregation, aggregation is shown by using a diamond in your uml diagrams 
+
+Working on  aggregating textbook, instructor, and course 
+
+
+
+29/09
+
+myPoint and myTriangle aggregation
+
+The final keyword prevents any changes being made to its value 
+
+Variables should be declared as fields(member variable, instance variables) only if they are going to be used more then once in the class, used in multiple methods 
+
+Three ways to call a method
+1. Using a method name by itself to call another method of the same class 
+2. Using a variate that contains a reference to an object, followed by a dot (.) and the method name to call a method of the referenced object 
+3. Using the class name and a dot(.)to call a static method of a class 
+
+Scope of field is class 
+
+Scope of a parameter variable declaration is the body of the method which the declaration appears 
+
+If a local variable or parameter in a method has the same name as a field of the class, the field is “hidden” until the block terminates execution - this is called shadowing 
+
+If you want to use the class fields in a method that has local variables with the same name you use use the this. In front of it so the compiler knows which is the instance variable and which is the local 
+
+When an if statement has only one line you don’t need to use the curly braces, if you want two statements to be connected to the if condition then you need the curly braces.
+
+FINISHED UP WITH QAP1, DID THE ACCOUNT AND DATE CLASSES

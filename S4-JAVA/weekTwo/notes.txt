@@ -1,0 +1,15 @@
+15/09 
+
+This week we will be doing constructors, setters, and getters, toString method
+
+Constructor - you add constructors to your class to initialize the instance variables
+Giving memory to your variables and has the same name as the class, gives you the item you 
+need to actually do work with the methods and call functionality
+
+There are three types of constructors 1. Default or no argument 2. Parameterized 3. And copy constructors   
+
+Package = folder 
+
+UML(unified modelling language)s diagrams - access modifiers are determined by a + for public and - for private
+
+When writing your getters and setters you write the get or set lowercase and the name of the variable uppercase 
