@@ -1,3 +1,5 @@
+package S4.Sprint4;
+
 public class Tourney {
     // Variable creation!
         public String tourneyName, startDate, endDate, location;;

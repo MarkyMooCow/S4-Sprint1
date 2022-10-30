@@ -1,3 +1,5 @@
+package S4.Sprint4;
+
 public class Main {
     public static void main(String[] args) {
         // Create our real people
@@ -16,7 +18,7 @@ public class Main {
 
         // Create a test tournament!
         Tourney Tourney1 = new Tourney(
-                "Wuhu Island Tourney", "11/11/11", "11/15/11", "Detroit, Michigan",
+                "Wuhu Island Cup", "11/11/11", "11/15/11", "Detroit, Michigan",
                 3, 5.55, 55.55); // I'm cheap OK?
 
         // These won't succeed at all lmao

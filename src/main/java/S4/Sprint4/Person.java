@@ -1,6 +1,8 @@
+package S4.Sprint4;
+
 public class Person extends Tourney {
     // Variables!
-    private String name, address, email, phone, membershipType, membershipStart, membershipDuration, type;
+    private String name, address, email, phone, membershipType, membershipStart, membershipDuration;
     private Tourney currentTourney, lastTourney, nextTourney;
 
     public Person() {  // Default Constructor
