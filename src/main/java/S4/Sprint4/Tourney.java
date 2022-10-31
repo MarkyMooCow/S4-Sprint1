@@ -2,7 +2,7 @@ package S4.Sprint4;
 
 public class Tourney {
     // Variable creation!
-        public String tourneyName, startDate, endDate, location;;
+        public String tourneyName, startDate, endDate, location;
         public Person[] competitors, finalStandings;
         public double entryFee, cashPrize;
 
@@ -12,7 +12,7 @@ public class Tourney {
             this.startDate = null;
             this.endDate = null;
             this.location = null;
-            this.competitors = new Person[5]; // 5 will be the default competitor amount;
+            this.competitors = new Person[5]; // 5 will be the default competitor amount.
             this.finalStandings = new Person[3];
             this.entryFee = 0;
             this.cashPrize = 0;
@@ -78,6 +78,9 @@ public class Tourney {
                 }}
     // Create the final standings!
     public String createFinalStandings(int first, int second, int third) {
+            if (this.competitors[first] == null || this.competitors[second] == null || this.competitors[third] == null) {
+                return "One of the competitors is [Vacant]!";
+            } else {
         this.finalStandings[0] = this.competitors[first];
         this.finalStandings[1] = this.competitors[second];
         this.finalStandings[2] = this.competitors[third];
@@ -85,7 +88,7 @@ public class Tourney {
                 "\n First: " + this.finalStandings[0].getName() +
                 "\n Second: " + this.finalStandings[1].getName() +
                 "\n Third: " + this.finalStandings[2].getName();
-        }
+        }}
         // Show the final standings! Unless it's not complete.
         public String getFinalStandings(){
             if (this.finalStandings[0] == null) {

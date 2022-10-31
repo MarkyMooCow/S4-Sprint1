@@ -24,7 +24,7 @@ public class MavenTest {
                 "Detroitborn@dmail.com", "444-4444",
                 "Single", "11/10/11", "1 Year");
 
-        Assertions.assertFalse(Person.getCurrentTourney().endsWith("ney"));
+        Assertions.assertTrue(Person.getCurrentTourney() == null);
     }
 
     @Test
