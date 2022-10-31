@@ -122,7 +122,7 @@ public class Tourney {
                         "\n End Date: " + getEndDate() +
                         "\n Location: " + getLocation() +
                         "\n Competitor Limit: " + this.competitors.length +
-                        "\n Final Standings: " + hasTourneyEnded() +
+                        "\n Has Tourney Ended?: " + hasTourneyEnded() +
                         "\n Entry Fee: $" + getEntryFee() +
                         "\n Cash Prize: $" + getCashPrize();
     }

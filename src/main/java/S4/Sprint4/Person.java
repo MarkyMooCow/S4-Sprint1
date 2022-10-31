@@ -1,6 +1,6 @@
 package S4.Sprint4;
 
-public class Person extends Tourney {
+public class Person {
     // Variables!
     private String name, address, email, phone, membershipType, membershipStart, membershipDuration;
     private Tourney currentTourney, lastTourney, nextTourney;
